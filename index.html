@@ -2,33 +2,61 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>No Waste EB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Less Waste More Taste EB</title>
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-    />
   </head>
-
   <body>
-    <input
-      type="text"
-      id="myInput"
-      onkeyup="myFunction()"
-      placeholder="Søk etter retter.."
-    />
+    <nav>
+      <a href="#"><img class="logo" src="images/logo.png" /></a>
+      <h1 class="title">Less Waste More Taste</h1>
+      <input
+        type="text"
+        id="myInput"
+        onkeyup="myFunction()"
+        placeholder="Søk etter retter.."
+      />
+    </nav>
 
-    <ul id="myUL">
-      <li><a href="#">Mat 1</a></li>
-      <li><a href="#">Mat 2</a></li>
-      <li><a href="#">Mat 3</a></li>
-      <li><a href="#">Mat 4</a></li>
-      <li><a href="#">Mat 5</a></li>
-      <li><a href="#">Mat 6</a></li>
-      <li><a href="#">Mat 7</a></li>
-      <li><a href="#">Mat 8</a></li>
-    </ul>
+    <div class="container">
+      <div class="products">
+        <div class="product n1">
+          <img src="" />
+          <a class="text t1" href="#">Taco baguette</a>
+        </div>
+        <div class="product n2">
+          <img src="" />
+          <a class="text" href="#">Oppskrift 2</a>
+        </div>
+        <div class="product n3">
+          <img src="" />
+          <a class="text" href="#">Oppskrift 3</a>
+        </div>
+        <div class="product n4">
+          <img src="" />
+          <a class="text" href="#">Oppskrift 4</a>
+        </div>
+        <div class="product n5">
+          <img src="" />
+          <a class="text" href="#">Oppskrift 5</a>
+        </div>
+        <div class="product n6">
+          <img src="" />
+          <a class="text" href="#">Oppskrift 6</a>
+        </div>
+      </div>
 
+      <ul class="list" id="myUL">
+        <li class="list-items"><a href="#">Mat 1</a></li>
+        <li class="list-items"><a href="#">Mat 2</a></li>
+        <li class="list-items"><a href="#">Mat 3</a></li>
+        <li class="list-items"><a href="#">Mat 4</a></li>
+        <li class="list-items"><a href="#">Mat 5</a></li>
+        <li class="list-items"><a href="#">Mat 6</a></li>
+        <li class="list-items"><a href="#">Mat 7</a></li>
+        <li class="list-items"><a href="#">Mat 8</a></li>
+      </ul>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
